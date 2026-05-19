@@ -1,5 +1,7 @@
 // swift-actor-demo.swift
 
+import Foundation
+
 // ============ 基本 Actor ============
 actor BankAccount {
     private var balance: Double = 0

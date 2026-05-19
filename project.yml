@@ -1,0 +1,33 @@
+name: swift_actor_demo
+options:
+  bundleIdPrefix: com.freewind
+  deploymentTarget:
+    macOS: "14.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MACOSX_DEPLOYMENT_TARGET: "14.0"
+targets:
+  swift_actor_demo:
+    type: application
+    platform: macOS
+    productName: swift_actor_demo
+    sources:
+      - Sources
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.freewind.swiftactordemo
+        GENERATE_INFOPLIST_FILE: YES
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        DEVELOPMENT_TEAM: ""
+        ENABLE_HARDENED_RUNTIME: NO
+    scheme:
+      testTargets: []
+schemes:
+  swift_actor_demo:
+    build:
+      targets:
+        swift_actor_demo: all
+    run:
+      config: Debug

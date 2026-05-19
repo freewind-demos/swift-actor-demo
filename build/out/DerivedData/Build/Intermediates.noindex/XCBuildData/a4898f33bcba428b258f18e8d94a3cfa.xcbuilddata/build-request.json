@@ -1,0 +1,64 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "354eb5eee053526063c490d4e0f565bd318d4b1e5bcb74a37a566a2ff1574fac"
+    }
+  ],
+  "containerPath" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/swift_actor_demo.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "x86_64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx26.2",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "x86_64h",
+        "x86_64"
+      ],
+      "targetArchitecture" : "x86_64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/build/out/DerivedData/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/build/out/DerivedData/Build/Products",
+      "derivedDataPath" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/build/out/DerivedData",
+      "indexDataStoreFolderPath" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/build/out/DerivedData/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/build/out/DerivedData/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/build/out/DerivedData/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "ARCHS" : "x86_64",
+          "CONFIGURATION_BUILD_DIR" : "/Volumes/SN550-2T/freewind-demos/swift-actor-demo/build/out/Debug",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
