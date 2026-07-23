@@ -53,7 +53,7 @@ SCHEME_PATH="${SCHEME_PATHS[0]}"
 SCHEME="$(basename "$SCHEME_PATH" .xcscheme)"
 
 BUILD_SETTINGS="$(xcodebuild \
-  "${DESTINATION_ARGS[@]}" \
+  ${DESTINATION_ARGS[@]+"${DESTINATION_ARGS[@]}"} \
   -project "$PROJ_NAME.xcodeproj" \
   -scheme "$SCHEME" \
   -configuration "$CONFIG" \
@@ -72,7 +72,7 @@ fi
 APP_PATH="$TARGET_BUILD_DIR/$WRAPPER_NAME"
 
 xcodebuild \
-  "${DESTINATION_ARGS[@]}" \
+  ${DESTINATION_ARGS[@]+"${DESTINATION_ARGS[@]}"} \
   -project "$PROJ_NAME.xcodeproj" \
   -scheme "$SCHEME" \
   -configuration "$CONFIG" \
